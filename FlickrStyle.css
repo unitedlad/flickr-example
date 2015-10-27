@@ -1,0 +1,47 @@
+.outerDiv { 
+	display: table; 
+	width: 100%;
+	margin-left:50px; 
+	border-spacing: 20px;
+}
+.innerDiv { 
+	display: table-cell;
+	border: 1px solid black;
+	padding: 5px 5px;
+}
+img {   
+    vertical-align:top;   
+}
+#searchCriteria {
+	margin-left:50px;
+}
+#searchPanel { 
+    padding: 5px; 
+    text-align: center; 
+    background-color: #e5eecc; 
+    border: solid 1px #c3c3c3; 
+    margin-left:50px; 
+    width:300px; 
+	cursor: pointer;
+} 
+a:link { 
+	color: green; 
+    background-color: transparent; 
+    text-decoration: none; 
+} 
+a:visited { 
+    color: pink; 
+    background-color: transparent; 
+    text-decoration: none; 
+} 
+a:hover { 
+    color: red; 
+    background-color: transparent; 
+    text-decoration: underline; 
+} 
+a:active { 
+    color: yellow; 
+    background-color: transparent; 
+    text-decoration: underline; 
+}
+}
